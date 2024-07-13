@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Clock</title>
+</head>
+<body>
+
+    <div class="clocks">
+        <div class="progress-container">
+            <svg class="progress-ring" viewBox="0 0 120 120">
+                <circle class="progress-ring__circle" stroke="rgb(0, 231, 231)" stroke-width="2.3" fill="transparent" r="52" cx="60" cy="60" />
+            </svg>
+            <div class="progress-text"></div>
+        </div>
+        <div class="digitalWatch">
+            <p class="digitalHours">12</p>
+            <p>:</p>
+            <p class="digitalMinutes">05</p>
+            <p>:</p>
+            <p class="digitalSeconds">60</p>
+            <p class="digitalTime">PM</p>
+        </div>
+        <div class="clockPhase">
+            <div class="video-container">
+                <video src="blender2.mp4" class="video" autoplay loop muted></video>
+            </div>
+    
+            <p class="p12">12</p>
+            <p class="p1">1</p>
+            <p class="p2">2</p>
+            <p class="p3">3</p>
+            <p class="p4">4</p>
+            <p class="p5">5</p>
+            <p class="p6">6</p>
+            <p class="p7">7</p>
+            <p class="p8">8</p>
+            <p class="p9">9</p>
+            <p class="p10">10</p>
+            <p class="p11">11</p>
+            <p class="center"></p>
+            <p class="minute"></p>
+            <p class="second"></p>
+            <p class="hour"></p>
+            
+        </div>
+
+        <div class="stopWatch">
+            <div class="timers">
+                <div class="timerHours"></div>
+                <div class="timerMinutes"></div>
+                <div class="timerSeconds"></div>
+            </div>
+
+            <section>
+                <div>
+                    <button class="startButton">Start</button>
+                </div>
+                <div>
+                    <button class="stopButton">Stop</button>
+                </div>
+                <div>
+                    <button class="resetButton">Reset</button>
+                </div>
+            </section>
+    
+        </div>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
